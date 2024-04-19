@@ -36,7 +36,7 @@ When using this dataset, please use the following BibTeX entry to cite the autho
 }
 ```
 
-## Exemplos das imagens
+## Examples of Images
 
 The images were captured in two ways: controlled environment and real-world simulation. For the controlled environment, photographs were taken in a well-lit space, at a distance of 30 to 40 centimeters, from both sides of the banknotes, without folds and without occlusions (i.e., details covered by other objects or overlays). For real-world simulations, photographs were also taken at a distance of 30 to 40 centimeters, being held by human hands, partially covered or not, with variations in lighting and background.
 
