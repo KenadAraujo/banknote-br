@@ -2,6 +2,10 @@
 
 This dataset consists of images of Brazilian banknotes from the [Second Family of Real](https://www.bcb.gov.br/cedulasemoedas/segundafamilia) for people with visual impairment, both genuine and counterfeit, comprising the denominations: 2 reais, 5 reais, 10 reais, 20 reais, 50 reais, and 100 reais. The 200 reais banknotes were not included due to the difficulty in [obtaining](https://g1.globo.com/economia/noticia/2022/09/02/ja-viu-alguma-nota-de-r-200-completa-dois-anos-mas-circulacao-no-pais-ainda-e-baixa.ghtml) them (source), furthermore, the Brazilian government intends to [withdraw them from circulation](https://www.terra.com.br/economia/nota-de-r-200-pode-acabar-veja-o-que-aconteceu-com-a-cedula-lancada-na-pandemia,7b5d388688a32be3368d60578d7fcad13tt3wi6n.html), hence they were not added to this dataset.
 
+``` 
+At the end of producing the images, all fake banknotes were destroyed in order to prevent malicious use.
+```
+
 ## Dataset Organization
 
 The dataset comprises 368 images (92 for training and 276 for testing), originating from 23 genuine banknotes, both front and back (4 notes of 2 reais, 3 notes of 5 reais, 5 notes of 10 reais, 5 notes of 20 reais, 3 notes of 50 reais, and 3 notes of 100 reais). Each genuine banknote produced two standardized training images and 6 non-standardized training images (simulating capture by a visually impaired person). Additionally, their counterfeit counterparts were also produced.
@@ -30,7 +34,7 @@ When using this dataset, please use the following BibTeX entry to cite the autho
 @data{silva_et_al_2024,
     url = {https://github.com/KenadAraujo/banknote-br},
     author = {Silva, Kenad W.A. and Aires, Kelson R.T. and Brito Neto, Laurindo de S.},
-    publisher = {AVC Lab, UFPI - Universidade Federal do Piauí},
+    publisher = {Applied Visual Computing Laboratory (AVC Lab), Federal University of Piauí (UFPI)},
     title = {Open Dataset for Recognition of Brazilian Counterfeit Banknotes(BankNote-Br)},
     year = {2024} 
 }
