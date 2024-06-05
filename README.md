@@ -31,12 +31,11 @@ Banknote-Br
 When using this dataset, please use the following BibTeX entry to cite the authors:
 
 ``` bibtex
-@data{silva_et_al_2024,
-    url = {https://github.com/KenadAraujo/banknote-br},
-    author = {Silva, Kenad W.A. and Aires, Kelson R.T. and Brito Neto, Laurindo de S.},
-    publisher = {Applied Visual Computing Laboratory (AVC Lab), Federal University of Piauí (UFPI)},
-    title = {Open Dataset for Recognition of Brazilian Counterfeit Banknotes(BankNote-Br)},
-    year = {2024} 
+@misc{silva_et_al_2024,
+    author = {Silva, Kenad W. A. and Aires, Kelson R. T. and Britto~Neto, Laurindo de S.},
+    title = {Open Dataset for Recognition of Brazilian Counterfeit Banknotes ({BankNote-BR})},
+    year = {2024},
+    note = "[Online] Available: \url{https://github.com/KenadAraujo/banknote-br}"
 }
 ```
 
